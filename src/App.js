@@ -8,7 +8,7 @@ class App extends Component {
 
   constructor(){
     super();
-    this.state = {user : null}
+    this.state = {user : 'me'}
   }
 
   isLogged() {
@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     if (this.isLogged()) {
       return (
-        <ChatWindow user={this.state.user}/>
+        <ChatWindow userId={this.state.user}/>
       );
     } else {
       return (

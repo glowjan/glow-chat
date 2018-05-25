@@ -22,6 +22,42 @@
   font-size: large;
 }
 
+div.output {
+  max-width: 600px;
+  width: 500px;
+  padding: 20px;
+}
+
+div.inputArea {
+  max-width: 600px;
+  width: 500px;
+  margin: 20px;
+}
+
+div .inputArea textarea {
+  width: 100%;
+  box-sizing:border-box;
+  padding: 10px;
+}
+
+div.textRow {
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+div.mine {
+  position: relative;
+  text-align: right;
+  background-color: aliceblue
+}
+
+div.notmine {
+  position: relative;
+  text-align: left;
+  background-color: lightgray
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
